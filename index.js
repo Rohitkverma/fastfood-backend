@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello cha-ccha hij ji')
 })
 app.use(cors({
-  origin: 'http://localhost:5000'
+  origin: '*'
 }));
 
 app.use(express.json());
